@@ -1,0 +1,41 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="{% static 'account.css' %}">
+</head>
+
+<body>
+    <header id="navbar">
+        <a class="option" href="home">QuickKart.in</a>
+        <a id="name" href="account" class="option">Account</a>
+        <a href="cart" class="option">My Cart</a>
+        <a href="order" class="option">Orders</a>
+        <input type="text" placeholder="Search Here">
+        <button>Search</button>
+    </header>
+
+    <main class="profile-container">
+        <div class="profile-box">
+            <div class="profile-header">
+                <h2>Personal Details</h2>
+            </div>
+            <div class="profile-info">
+                <p><span class="label">Name</span> Amit Shyamal </p>
+                <p><span class="label">Date of Birth</span> 12-09-1982</p>
+                <p><span class="label">Sex</span> Male</p>
+                <p><span class="label">Address</span>Sodepur, Panihati<br>Kolkata, West Bengal, India <br>700114</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a><button class="btn logout">Logout</button></a>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+</head>
+
+<body>
+    <header id="navbar">
+        <a href="home" class="option" >QuickKart.in</a>
+        <a href="account" id="name"  class="option">Account</a>
+        <a href="cart" class="option">My Cart</a>
+        <a href="order" class="option">Orders</a>
+        <input type="text" placeholder="Search Here">
+        <button>Search</button>
+    </header>
+
+    <main>
+        <h2>Hello! Welcome to QuickKart.in,Your One-Stop Destination for Seamless Shopping!.</h2>
+        <a href="cloth" target="_main">
+            <div class="trend" id="left">
+                <div class="product" id="cloth1"></div>
+                <div class="product" id="cloth2"></div>
+                <div class="product" id="cloth3"></div>
+                <div class="product" id="cloth4"></div>
+            </div>
+        </a>
+
+        <a href="decor" target="_main">
+            <div class="trend" id="left">
+                <div class="product" id="decor1"></div>
+                <div class="product" id="decor2"></div>
+                <div class="product" id="decor3"></div>
+                <div class="product" id="decor4"></div>
+            </div>
+        </a>
+
+        <a href="elec" target="_main">
+            <div class="trend" id="left">
+                <div class="product" id="elec1"></div>
+                <div class="product" id="elec2"></div>
+                <div class="product" id="elec3"></div>
+                <div class="product" id="elec4"></div>
+            </div>
+        </a>
+
+        <a href="beauty" target="_main">
+            <div class="trend" id="left">
+                <div class="product" id="beauty1"></div>
+                <div class="product" id="beauty2"></div>
+                <div class="product" id="beauty3"></div>
+                <div class="product" id="beauty4"></div>
+            </div>
+        </a>
+
+        <a href="sports" target="_main">
+            <div class="trend" id="left">
+                <div class="product" id="sports1"></div>
+                <div class="product" id="sports2"></div>
+                <div class="product" id="sports3"></div>
+                <div class="product" id="sports4"></div>
+            </div>
+        </a>
+
+        <a href="jwel" target="_main">
+            <div class="trend" id="left">
+                <div class="product" id="jwel1"></div>
+                <div class="product" id="jwel2"></div>
+                <div class="product" id="jwel3"></div>
+                <div class="product" id="jwel4"></div>
+            </div>
+        </a>
+    </main>
+    <footer>
+        <p id="foot">
+            © 2025 Your Company Name. All Rights Reserved.
+            Follow us on: Facebook | Instagram | Twitter
+            Contact us: support@yourcompany.com
+        </p>
+    </footer>
+</body>

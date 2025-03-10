@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'order.css' %}">
+</head>
+
+<body>
+    <header id="navbar">
+        <a class="option" href="home">QuickKart.in</a>
+        <a id="name" href="account" class="option">Account</a>
+        <a href="cart" class="option">My Cart</a>
+        <a href="order" class="option">Orders</a>
+        <input type="text" placeholder="Search Here">
+        <button>Search</button>
+    </header>
+
+    <h2>Placed Orders</h2>
+
+    <div class="order-container">
+        <div class="order-box">
+            <img src="elec4.jpg" alt="ordered-item">
+            <span>Mobile</span>
+            <span class="arrival">Arrival - 3 days</span>
+        </div>
+
+        <div class="order-box">
+            <img src="jwel4.jpg" alt="ordered-item">
+            <span>24 carat gold earrings</span>
+            <span class="arrival">Arrival - 1 days</span>
+        </div>
+    </div>
+</body>
+
+</html>

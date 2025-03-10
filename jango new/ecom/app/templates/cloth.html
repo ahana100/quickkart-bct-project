@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'cloth.css' %}">
+</head>
+
+<body>
+    <header id="navbar">
+        <a class="option" href="home">QuickKart.in</a>
+        <a id="name" href="account" class="option">Account</a>
+        <a href="cart" class="option">My Cart</a>
+        <a href="order" class="option">Orders</a>
+        <input type="text" placeholder="Search Here">
+        <button>Search</button>
+    </header>
+    <h2>Here's our trendy clothes collection.</h2>
+    <div class="cloth">
+        <div id="cloth1"></div>
+        <div class="buttons">
+            <a href="cart"><button class="animated-btn">Add to Cart</button></a>
+            <a href="order"><button class="animated-btn">Buy Now</button></a>
+        </div>
+    </div>
+
+    <div class="cloth">
+        <div id="cloth2"></div>
+        <div class="buttons">
+            <a href="cart"><button class="animated-btn">Add to Cart</button></a>
+            <a href="order"><button class="animated-btn">Buy Now</button></a>
+        </div>
+    </div>
+
+    <div class="cloth">
+        <div id="cloth3"></div>
+        <div class="buttons">
+            <a href="cart"><button class="animated-btn">Add to Cart</button></a>
+            <a href="order"><button class="animated-btn">Buy Now</button></a>
+        </div>
+    </div>
+</body>
+
+</html>
